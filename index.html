@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Parking System</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/app.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">College Parking System</h1>
+    </header>
+    <form class="user">
+        <h1>User Registeration</h1>
+        <input id="userName" class="name" type="text" placeholder="Name*" required>
+        <input id="userContact" type="text"placeholder="Contact*" required pattern="[0-9]{10}">
+        <select id="role">
+            <option selected disabled value="">---Select type---</option>
+            <option value="student">Student</option>
+            <option value="faculty">Faculty</option>
+        </select>
+        <input id="userSaveBtn" type="submit" value="Register">
+    </form>
+    <form class="vehicle">
+        <h1>Vehicle Registeration</h1>
+        <input id="vehicleId" type="text" placeholder="Vehicle-ID*"required>
+        <select id="type">
+            <option selected disabled value="">---Select type---</option>
+            <option value="car">Car</option>
+            <option value="bike">Bike</option>
+            <option value="cycle">Cycle</option>
+        </select>
+        <input id="vehicleSaveBtn" type="submit"value="Register">
+    </form>
+    <form class="pass-choice">
+    </form>
+    <div class="pass">
+    </div>
+  
+    <footer>
+        &copy; Copyright 2023-2024 | College Parking System | All Rights Reserved
+    </footer>
+    
+</body>
+</html>
